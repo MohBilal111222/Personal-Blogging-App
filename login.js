@@ -3,6 +3,12 @@
 
 
 
+
+import { getAuth, signInWithEmailAndPassword } from "https://www.gstatic.com/firebasejs/10.12.4/firebase-auth.js";
+import { auth } from "./config.js";
+
+
+
 const loginForm = document.querySelector('#login-form')
 const emailLogin = document.querySelector('.email-login')
 const passwordLogin = document.querySelector('.password-login')

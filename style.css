@@ -108,6 +108,9 @@ display: block;
     align-items: center;
     justify-content: center;
     margin-top: 50px;
+    padding: 5px;
+    border-radius: 10px;
+
    }
   .sign-head{
     margin: 10px 0px;
@@ -136,6 +139,8 @@ display: block;
     align-items: center;
     justify-content: center;
     margin-top: 50px;
+    padding: 5px;
+    border: 5px;
    }
   .login-head{
     margin: 10px 0px;
@@ -148,3 +153,6 @@ display: block;
 }
 
 
+.login-btn-hower{
+  background-color: #45a049;
+}
