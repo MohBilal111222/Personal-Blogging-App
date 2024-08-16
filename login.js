@@ -1,9 +1,3 @@
-// import { signInWithEmailAndPassword} from "https://www.gstatic.com/firebasejs/10.12.4/firebase-auth.js"
-// import {auth} from "./config.js"
-
-
-
-
 import { getAuth, signInWithEmailAndPassword } from "https://www.gstatic.com/firebasejs/10.12.4/firebase-auth.js";
 import { auth } from "./config.js";
 
@@ -23,7 +17,7 @@ loginForm.addEventListener('submit' , (e)=>{
 
     setTimeout(()=>{
         alert('login succesfully')
-        window.location.href = 'index.html'
+        window.location.href = 'dashboard.html'
     },1000)
     
   })

@@ -156,3 +156,13 @@ display: block;
 .login-btn-hower{
   background-color: #45a049;
 }
+
+
+.dashboard{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(12, 12, 180);
+  padding: 15px;
+  text-align: center;
+}
